@@ -1,0 +1,8 @@
+const MESSAGE_STATUS = Object.freeze({
+  SCHEDULED: 'SCHEDULED',
+  PROCESSING: 'PROCESSING',
+  COMPLETED: 'COMPLETED',
+  FAILED: 'FAILED'
+});
+
+module.exports = { MESSAGE_STATUS };
